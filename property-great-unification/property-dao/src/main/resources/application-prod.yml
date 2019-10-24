@@ -1,0 +1,42 @@
+server:
+  port: 8089
+  servlet:
+    context-path:  /miservice-prod
+
+spring:
+
+        datasource:
+           driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+           url: jdbc:sqlserver://120.79.130.43;DatabaseName=melife
+           username: sa
+           password: Tagen2018soft@!#%Pmb
+       redis:
+       host: 192.168.1.66
+       password: redispassword
+       port: 6379
+       pool:
+            max-idle: 100
+            min-idle: 1
+            max-active: 1000
+            max-wait: -1
+
+#mybatis:
+  #type-aliases-package:  com.tianjian.web.entity.*
+  #mapper-locations:    com/tianjian/web/mapper/**/*.xml
+ # mybatis-config-file:  mybatis-config.xml
+
+
+
+
+
+
+#jwt configuration
+jwt:
+  header:  Authorization
+  secret:  mySecret
+  #token有效期一天
+  expiration:  86400
+  authHeader:   authorities
+  tokenHeader:  accessToken
+  tokenPrefix:    Bearer
+  antMatchers:    /security/noauth

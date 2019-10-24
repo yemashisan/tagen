@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/property-great-unification/.mvn/.mvn.iml" filepath="$PROJECT_DIR$/property-great-unification/.mvn/.mvn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/property-great-unification/property-backstagement/src/main/main.iml" filepath="$PROJECT_DIR$/property-great-unification/property-backstagement/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/property-great-unification/property-communal/src/main/main1.iml" filepath="$PROJECT_DIR$/property-great-unification/property-communal/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/property-great-unification/property-dao/src/main/main2.iml" filepath="$PROJECT_DIR$/property-great-unification/property-dao/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/property-great-unification/property-entity/src/main/main3.iml" filepath="$PROJECT_DIR$/property-great-unification/property-entity/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/property-great-unification/property-service/src/main/main4.iml" filepath="$PROJECT_DIR$/property-great-unification/property-service/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/property-great-unification/property-miservice/src/main/main5.iml" filepath="$PROJECT_DIR$/property-great-unification/property-miservice/src/main/main5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/property-great-unification/property-tschedules/src/main/main6.iml" filepath="$PROJECT_DIR$/property-great-unification/property-tschedules/src/main/main6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/property-great-unification/property-dao/src/test/test.iml" filepath="$PROJECT_DIR$/property-great-unification/property-dao/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/property-great-unification/property-backstagement/src/test/test1.iml" filepath="$PROJECT_DIR$/property-great-unification/property-backstagement/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/property-great-unification/property-tschedules/src/test/test2.iml" filepath="$PROJECT_DIR$/property-great-unification/property-tschedules/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/property-great-unification/property-service/src/test/test3.iml" filepath="$PROJECT_DIR$/property-great-unification/property-service/src/test/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/property-great-unification/property-communal/src/test/test4.iml" filepath="$PROJECT_DIR$/property-great-unification/property-communal/src/test/test4.iml" />
+    </modules>
+  </component>
+</project>

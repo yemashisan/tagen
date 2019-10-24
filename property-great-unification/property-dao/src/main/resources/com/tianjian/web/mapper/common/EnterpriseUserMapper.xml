@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tianjian.web.dao.common.EnterpriseUserRepository">
+    <resultMap id="BaseResultMap" type="com.tianjian.web.entity.system.EnterpriseUser">
+        <id column="EUserId"   property="euserId" />
+        <result column="GuId" property="guId" />
+        <result column="UserName" property="userName" />
+        <result column="UserType" property="userType" />
+        <result column="UserNo" property="userNo" />
+        <result column="Orders" property="orders" />
+        <result column="isAvailable" property="isAvailable" />
+        <result column="DeptCode" property="deptCode" />
+        <result column="Posts" property="posts" />
+        <result column="LoginName" property="loginName" />
+        <result column="Password" property="password" />
+        <result column="Email" property="email" />
+        <result column="MobileNo" property="mobileNo" />
+        <result column="AdminID" property="adminId" />
+        <result column="AddTime" property="addTime" />
+        <result column="IsClose" property="isClose" />
+
+
+    </resultMap>
+    <sql id="Base_Column_List" >
+    euserId,guId,userName,userType,userNo,orders,isAvailable,deptCode,posts,loginName,password,email,mobileNo,
+    adminId,addTime,isClose
+  </sql>
+    <select id="findByUsername" parameterType="java.lang.String" resultMap="BaseResultMap" >
+        select
+        <include refid="Base_Column_List" />
+        FROM
+        t_EnterpriseUsers where LoginName=#{loginName}
+    </select>
+
+</mapper>

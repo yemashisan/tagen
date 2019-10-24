@@ -1,0 +1,32 @@
+server:
+  port: 8090
+  servlet:
+   context-path:  /schedules
+spring:
+        profiles:
+           active:    ${env},tschedules
+        #datasource:
+          #driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+         #  url: jdbc:sqlserver://120.79.130.43;DatabaseName=melife
+          # username: sa
+          # password: Tagen2018soft@!#%Pmb
+
+ # configuration:
+   # map-underscore-to-camel-case: true
+   # default-fetch-size: 500
+   # default-statement-timeout: 80
+
+  #开启jpa
+  #jpa:
+  #hibernate:
+  # ddl-auto:  update
+  # show-sql:  true
+#开启mybatis
+mybatis:
+  type-aliases-package:  com.tianjian.web.entity.*
+  mapper-locations:    com/tianjian/web/mapper/**/*.xml
+  mybatis-config-file:  mybatis-config.xml
+
+
+
+

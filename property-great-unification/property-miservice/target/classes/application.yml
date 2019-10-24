@@ -1,0 +1,26 @@
+server:
+  port: 8088
+  servlet:
+   context-path:  /miservicef
+spring:
+        profiles:
+           active:   miservice, ${env}
+
+
+
+#jwt configuration
+jwt:
+  header:  Authorization
+  secret:  mySecret
+  #token有效期一天
+  expiration:  86400
+  authHeader:   authorities
+  tokenHeader:  accessToken
+  tokenPrefix:    Bearer
+  antMatchers:    /security/noauth, /security/noauth2
+
+
+
+
+
+
